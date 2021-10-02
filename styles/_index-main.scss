@@ -37,7 +37,6 @@
 }
 
 
-
 .services {
     display: grid;
     grid-template-columns: 635px 44px 200px 200px;
@@ -51,12 +50,10 @@
 
     &__list-1 {
         grid-column: 3 / 4;
-    
     }
 
     &__list-2 {
         grid-column: 4 / 5;
-    
     }
 
 }

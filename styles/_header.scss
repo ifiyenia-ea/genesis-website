@@ -1,0 +1,48 @@
+
+.header {
+    
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1080px;
+        width: 100%;
+    }
+
+    &__logo {
+        height: 20px;
+        padding: -15px;
+        grid-column: 1 / 2;
+    }
+
+    &__li-projects {
+       grid-column: 2 / 3;
+    }
+
+    &__li-contact {
+        grid-column: 3 / 4;
+    }
+
+    &__a {
+        text-decoration: none;
+        display: inline;
+        
+        &:visited {
+            color: #585a80ae;
+        }
+    
+        &:hover {
+            color: #4A4FF2;
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 20px;
+}
+

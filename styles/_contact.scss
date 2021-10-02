@@ -1,0 +1,33 @@
+.main__contact {
+    display: grid;
+    grid-template-rows: 410px 570px;
+    grid-template-columns: 635px 475px;
+    
+    &-text {
+        max-width: 635px;
+        width: 100%;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+
+    &-title {
+        max-width: 495px;
+        width: 100%;
+    }
+
+    &-p {
+        max-width: 445px;
+        width: 100%;
+    }
+
+    &-form {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+
+    &-img {
+        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+    }
+
+}

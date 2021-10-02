@@ -3,7 +3,6 @@
     &-container {
         display: grid;
         grid-template-columns: 635px 140px 335px;
-
     }
 
     &-info {
@@ -54,6 +53,7 @@
         width: 100%;
         display: inline-flex;
         justify-content: space-between;
+        margin-bottom: 60px;
     }
 
 }

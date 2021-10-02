@@ -1,0 +1,121 @@
+.projects__main {
+
+    &-container {
+        display: grid;
+        grid-template-columns: 635px 140px 335px;
+
+    }
+
+    &-info {
+        max-width: 635px;
+        width: 100%;
+        grid-column: 1 / 2;
+
+        &-title {
+            max-width: 495px;
+            width: 100%;
+        }
+
+    }
+
+    &-list {
+        grid-column: 3 / 4;
+        max-width: 335px;
+        width: 100%;
+    }
+
+    &-grid {
+        display: grid;
+        grid-template-rows: repeat(6, 50px);
+        grid-template-columns: 120px 200px;
+        max-width: 350px;
+        width: 100%;
+    }
+        
+    &-grids {
+        border-bottom: 3px solid rgba(151, 151, 151, 0.3);
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+            // wanted to add a shadow but of course this
+            // wasn't the correct way for doing the lines,
+            // again... made the lines slightly thicker
+            // instead.
+        
+
+        }
+
+
+    &-img {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    &-imgs {
+        max-width: 1110px;
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+}
+    
+        // I started putting these all in rows and columns,
+        // but they were already in the correct place -
+        // is it then okay to leave like this?
+        // 
+        // 
+        // &-1 {
+        //     grid-row: 1 / 2;
+        //     grid-column: 1 / 2;
+        // }
+
+        // &-2 {
+        //     grid-row: 1 / 2;
+        //     grid-column: 2 / 3;
+
+        // }
+
+        // &-3 {
+        //     grid-row: 2 / 3;
+        //     grid-column: 1 / 2;
+
+        // }
+
+        // &-4 {
+
+        // }
+
+        // &-5 {
+
+        // }
+
+        // &-6 {
+
+        // }
+
+        // &-7 {
+
+        // }
+
+        // &-8 {
+
+        // }
+
+        // &-9 {
+
+        // }
+
+        // &-10 {
+
+        // }
+
+        // &-11 {
+
+        // }
+
+        // &-12 {
+
+    
+
+
+
+

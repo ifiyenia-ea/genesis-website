@@ -34,16 +34,19 @@
 
 
 
-    <main>
+    <main class="main">
             <section class="main__intro">
-                <h3 class="intro__title">Shooting Stars</h3>
-                <h1 class="intro__text">Hello, I’m Bakhtiyar Sattarov,
-                    <span class="intro__blue">product designer</span> with experience
+                <h3 class="main__intro-title">Shooting Stars</h3>
+                <h1 class="main__intro-text">Hello, I’m Bakhtiyar Sattarov,
+                    <span class="main__intro-blue">product designer</span> with experience
                     in studios and startups</h1>
                 
                 
-                <h4 class="intro__h4"><span class="intro__h4-top">Des</span>ign is about progress </h4>
+                <h4 class="main__intro-h4"><span class="main__intro-h4-top">Des</span>ign is about progress </h4>
             </section>
+
+            <!--I'm sure this "span" is not the best way of creating a small line on top of something,
+                but don't know how else to do one! -->
         
             <section class="index__projects">
                 <img src="images/project-img-01.png" alt="" class="projects-1">
@@ -87,36 +90,39 @@
                     
             </section>
 
-        <section class="awards__container">
+        <section class="awards">
             <div class="awards__awwwards">
-                <h2 class="awwwards__title">Awwwards</h2>
-                <h4 class="awwwards__nomination-1">Site of the day</h4>
-                <p class="awwwards__nomination-2">Genesis UI Kit</p>
-                <p class="awwwards__nomination-3">2018</p>
-                <p class="awwwards__nomination-4">
+                <h2 class="awards__title">Awwwards</h2>
+                <h4 class="awards__nomination-1">Site of the day</h4>
+                <p class="awards__nomination-2">Genesis UI Kit</p>
+                <p class="awards__nomination-3">2018</p>
+                <p class="awards__nomination-4">
                     Application that helps to find nearest sport centres
                 </p>
 
-                <h4>Best navigation</h4>
-                <p>Genesis Template</p>
-                <p>2018</p>
-                <p class="1">
+                <h4 class="awards__nomination-5">Best navigation</h4>
+                <p class="awards__nomination-6">Genesis Template</p>
+                <p class="awards__nomination-7">2018</p>
+                <p class="awards__nomination-8">
                     Application that helps to find nearest sport centres
                 </p>
             </div>
 
             <div class="awards__cssdawards">
-                <h2>CSSDesignAwards</h2>
-                <h4>Genesis UI Kit</h4>
-                <p>2017</p>
-                <p class="1">
+                <h2 class="awards__title">CSSDesignAwards</h2>
+
+                <h4 class="awards__nomination-1">Site of the day</h4>
+                                        
+                <p class="awards__nomination-2">Genesis UI Kit</p>
+                <p class="awards__nomination-3">2017</p>
+                <p class="awards__nomination-4">
                     Application that helps to find nearest sport centres
                 </p>
 
-                <h4>Best navigation</h4>
-                <p>Genesis Template</p>
-                <p>2016</p>
-                <p class="1">
+                <h4 class="awards__nomination-5">Best navigation</h4>
+                <p class="awards__nomination-6">Genesis Template</p>
+                <p class="awards__nomination-7">2016</p>
+                <p class="awards__nomination-8">
                     Application that helps to find nearest sport centres
                 </p>
             
@@ -124,6 +130,37 @@
         </section>
     </main>
 
+    <footer class="footer">
+
+        <nav class="footer__container">
+
+            <a href="index.html">
+            <img src="images/Logo.svg" alt="Logo" class="footer__logo"></a>
+
+
+
+            <ul class="footer__menu">
+                <h4>
+                <li><a href="pages/projects.html" class="footer__a footer__li-projects">Projects</a></li>
+                <li><a href="pages/contact.html" class="footer__a footer__li-contacts">Contact</a></li>
+                </h4>
+            </ul>
+
+            <div class="footer__so-me">
+                <a href="#">
+                    <img src="images/dribbble-logo.png" alt="dribbble logo">
+                </a>            
+                <a href="#">
+                    <img src="images/instagram-logo.png" alt="instagram logo">
+                </a>            
+                <a href="#">
+                    <img src="images/twitter-logo.png" alt="twitter logo">
+                </a>
+            </div>
+
+        </nav>
+
+    </footer>
 
 </body>
 </html>

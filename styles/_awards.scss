@@ -1,0 +1,89 @@
+
+
+.awards {
+    // display: grid;
+    // grid-template-rows: repeat(2, 412px);
+
+    &__awwwards {
+        border-top: 1px solid #D8D8D8;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-rows: repeat(4, 80px);
+        grid-template-columns: repeat(5, 222px);
+    }
+
+    &__title {
+        display: flex;
+        align-self: center;
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+    }
+
+    &__nomination-1 {
+        display: flex;
+        align-self: center;
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+
+    }
+
+    &__nomination-2 {
+        display: flex;
+        align-self: center;
+        grid-row: 1 / 2;
+        grid-column: 4 / 5;
+    }
+
+    &__nomination-3 {
+        display: flex;
+        align-self: center;
+        grid-row: 1 / 2;
+        grid-column: 5 / 6;
+    }
+
+    &__nomination-4 {
+        display: flex;
+        align-self: flex-start;
+        grid-row: 2 / 3;
+        grid-column: 4 / 5;
+        padding-right: 10px;
+    }
+
+    &__nomination-5 {
+        display: flex;
+        align-self: center;
+        grid-row: 3 / 4;
+        grid-column: 3 / 4;
+    }
+
+    &__nomination-6 {
+        display: flex;
+        align-self: center;
+        grid-row: 3 / 4;
+        grid-column: 4 / 5;
+    }
+    
+    &__nomination-7 {
+        display: flex;
+        align-self: center;
+        grid-row: 3 / 4;
+        grid-column: 5 / 6;
+    }
+
+    &__nomination-8 {
+        display: flex;
+        align-self: flex-start;
+        grid-row: 4 / 5;
+        grid-column: 4 / 5;
+
+    }
+
+    &__cssdawards {
+        border-top: 1px solid #D8D8D8;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-rows: repeat(4, 80px);
+        grid-template-columns: repeat(5, 222px);
+    }
+
+}

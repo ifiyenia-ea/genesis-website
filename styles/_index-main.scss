@@ -6,12 +6,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        margin-top: 100px;
         margin-bottom: 100px;
     }
 
     &__intro-title {
-        color: #4A4FF2;
+        color: $genesis-blue;
     }
 
     &__intro-text {
@@ -20,7 +19,7 @@
     }
 
     &__intro-blue {
-        color: #4A4FF2;
+        color: $genesis-blue;
     }
 
     &__intro-h4 {

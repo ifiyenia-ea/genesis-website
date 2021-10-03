@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -39,18 +40,17 @@
             </p>
         </div>
             
-        <form action="" class="main__contact-form">
+        <form action="#" class="main__contact-form">
 
-            <label for="name" class="label">Name</label><br>
-            <input type="name" id="name" class="input"><br>
-            <label for="email" class="label">Email</label><br>
-            <input type="email" id="email" class="input input-2"><br>
-            <label for="message" class="label">Message</label><br>
-            <input for="message" class="input"><br>
-            <button><a href="#">Submit</a></button>
+            <label for="name">Name</label><br>
+            <input type="name" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" required><br>
+            <label for="message">Message</label><br>
+            <input for="message" required><br>
+            <button type="submit" class="main__contact-btn"><a href="#">Submit</a></button>
 
-            <!-- CHANGE CLASS NAMES, SORT BUTTON OUT ...  -->
-
+            
         </form>
         
         <img src="../images/Map.png" alt="map" class="main__contact-img">

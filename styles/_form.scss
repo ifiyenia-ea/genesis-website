@@ -1,0 +1,31 @@
+.main__contact-form {
+    padding-top: 40px;
+}
+
+.main__contact-btn {
+    background-color: $genesis-blue;
+    width: 125px;
+    height: 50px;
+    border: none;
+    color: white;    
+    // THESE STYLES AREN'T ADDED TO MY BUTTON ---- WHY???
+    // tried many different ways and know that this
+    // should work?
+    text-decoration: none;
+}
+
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+// Really wanted to remove the black border
+// that comes when you write something in
+// the form ... but can't find how.
+// tried input:focus, input:hover but neither
+// would work (for anything; changing background
+// colour etc...

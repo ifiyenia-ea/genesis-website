@@ -19,14 +19,14 @@
  
     &__a {
         text-decoration: none;
-        display: inline;
+        display: inline-flex;
         
         &:visited {
             color: #585a80ae;
         }
     
         &:hover {
-            color: #4A4FF2;
+            color: $genesis-blue;
             transform: scale(1.01);
         }
     }
@@ -36,6 +36,12 @@
         justify-content: space-between;
         max-width: 100px;
         width: 100%;
+
+        &-a:hover {
+            transform: scale(1.01); // only added this to one of them
+                                    // (on index.html)
+                                    // but wasn't working ...
+        }
     }
 }
 
